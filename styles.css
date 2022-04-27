@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monda:wght@700&family=Poppins&family=Rubik&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+
+    --white: #fff;
+    --line-color: #F9FE00;
+    --black: #000;
+
+}
+
+*::selection {
+
+    background: var(--line-color);
+    color: var(--black)
+}
+
+section {
+
+    max-width: 1200px;
+    padding: 1rem 3rem;
+    margin: 0 auto;
+    
+}
+
+.container {
+
+    height: 100vh;
+    background: var(--black);
+    color: var(--white);
+}
+
+.header .flex {
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .flex .navbar a {
+
+    text-decoration: none;
+    color: var(--white);
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.header .flex .navbar a:hover {
+
+    text-decoration: underline;
+    color: #F9FE00;
+}
+
+
+.header .flex .navbar img {
+
+    height: 1rem;
+    margin-left: 7rem;
+}
+.header .flex .logo {
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Monda', sans-serif; 
+}
+
+.header .flex .logo:hover {
+
+    color: var(--line-color);
+}
+
+.home .content {
+
+    margin-top: 9rem;
+    
+    
+}
+
+.home .content h1 {
+
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: var(--white);
+}
+
+.home .content h2 {
+
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--white);
+    
+  
+}
+
+
+span {
+
+    color: var(--line-color);
+}
+.home .content p {
+
+   font-size: 20px;
+   font-family: 'Rubik', sans-serif;
+   color: var(--white);
+ 
+}
+
+.home .contact {
+
+    display: flex;
+    gap: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 3rem;
+    
+}
+
+.home .contact .contact-me h1 {
+  
+  color: var(--line-color);
+  border: .1rem solid rgba(134, 134, 75,50%);
+  padding: .5rem .8rem;
+  font-size: 1.1rem;
+  border-radius: .2rem;
+  
+}
+
+.home .contact .contact-me h1:hover {
+
+    color: var(--black);
+    background: var(--line-color);
+}
+
+
+.home .contact .cv h1 {
+
+  color: var(--black);
+  border: .1rem solid rgba(134, 134, 75,50%);
+  padding: .5rem .8rem;
+  font-size: 1rem;
+  background: var(--line-color);
+  border-radius: .2rem;
+
+} 
+
+
